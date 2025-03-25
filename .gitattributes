@@ -1,0 +1,6 @@
+. filter=lfs diff=lfs merge=lfs -text
+progettoParcheggi.rar filter=lfs diff=lfs merge=lfs -text
+progettoParcheggi filter=lfs diff=lfs merge=lfs -text
+progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_1920_1080_loop.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+.mp4 filter=lfs diff=lfs merge=lfs -text
