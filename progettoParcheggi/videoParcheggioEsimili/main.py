@@ -16,11 +16,7 @@ def calc_diff(im1, im2):
 #maschere:
 #C:/Users/drj4k/OneDrive/Desktop/AI_projects_Fantini/progettoParcheggi/videoParcheggioEsimili/maschere/mask_1920_1080.png
 #C:/Users/drj4k/OneDrive/Desktop/AI_projects_Fantini/progettoParcheggi/videoParcheggioEsimili/maschere/mask_crop.png
-<<<<<<< HEAD
-mask = './progettoParcheggi/videoParcheggioEsimili/maschere/mask_1920_1080.png'
-=======
 mask = './ParkingProjectAI/progettoParcheggi/videoParcheggioEsimili/maschere/mask_1920_1080.png'
->>>>>>> 3931e151f1c8cde31bfe04d36936c00f2fdc608f
 
 #definizione percorso del singolo video da prendere come esempio
 #video:
@@ -28,11 +24,7 @@ mask = './ParkingProjectAI/progettoParcheggi/videoParcheggioEsimili/maschere/mas
 #C:/Users/drj4k/OneDrive/Desktop/AI_projects_Fantini/progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_1920_1080_loop.mp4
 #C:/Users/drj4k/OneDrive/Desktop/AI_projects_Fantini/progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_crop.mp4
 #C:/Users/drj4k/OneDrive/Desktop/AI_projects_Fantini/progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_crop_loop.mp4
-<<<<<<< HEAD
-video_path = './progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_1920_1080_loop.mp4'
-=======
 video_path = './ParkingProjectAI/progettoParcheggi/videoParcheggioEsimili/videoELoop/parking_1920_1080_loop.mp4'
->>>>>>> 3931e151f1c8cde31bfe04d36936c00f2fdc608f
 
 mask = cv2.imread(mask, 0)
 cap = cv2.VideoCapture(video_path)
