@@ -7,7 +7,11 @@ import cv2
 empty = True
 not_empty = False
 
+<<<<<<< HEAD
 model = pickle.load(open("./progettoParcheggi/model.p", "rb"))
+=======
+model = pickle.load(open("./ParkingProjectAI/progettoParcheggi/model.p", "rb"))
+>>>>>>> 3931e151f1c8cde31bfe04d36936c00f2fdc608f
 
 def empty_or_not(spot_bgr):
     flat_data = []
